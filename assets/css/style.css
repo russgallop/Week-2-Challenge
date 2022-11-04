@@ -1,0 +1,102 @@
+html * {
+  font-size: 16px;
+  line-height: 2;
+  color: black;
+  font-family: Nunito, sans-serif;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 24px; 
+    justify-content: flex-start;
+}
+
+li {
+    display: inline-block;
+    margin: 10px;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: #466b8f;
+    color: black;
+  }
+  
+h1 {
+    font-size: 250%;
+    font-family: serif;
+    margin-left: 15%;     
+  } 
+  
+p {
+    display: flex;
+    text-align: left;
+    margin-left: 35%;
+    margin-top: auto;
+    padding: 25px;
+    }
+    
+h2 {
+    border-right: solid black 5px;
+    text-align: center;
+    width: 25%;
+    margin: 5px;
+    padding: 2%;
+    font-size: 250%;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #466b8f;
+    color: #fff;
+    margin-top: auto;
+  }
+
+  .p {
+    display: flex;
+  }
+
+  .img {
+    flex: 1 0 0;
+    padding: 25px;
+   
+  }
+  
+ .contact {
+    padding: 20px;
+    text-align: center;
+    background: #466b8f;
+    color: #fff;
+    margin-top: auto;
+ } 
+
+ .contact-info {    
+    text-align: left;
+    margin-left: 35%;
+    margin-top: auto;
+}
+    
+
+.about {
+    margin: 20%;
+}
+  
+.info {        
+    display: flex;    
+}
+
+.moinfo {        
+    display: flex;
+    text-align: left;
+    margin-left: 35%;
+    margin-top: auto;
+}
+
